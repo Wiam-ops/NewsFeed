@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:enim_press/src/features/newsfeed/Pages/general_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'Profil_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -105,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
             GeneralScreen(),          
             const Text("Scolaire Screen"),
             const Text("Parascolaire Screen"),
-            const Text("Profil Screen"),
+             ProfileScreen(),
           ],
         ),
 
